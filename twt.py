@@ -1,11 +1,11 @@
 import tweepy
 from tkinter import Tk, Entry, Label, Button
 
-consumer_key = "1YlQR4s1xhodnQevmEyiADn85"
-consumer_secret = "0YOyhqdGedRCsGSyu1FqrROPjbbbLqb2ramTgkXH68uhrc8n8f"
-
-access_token = "954776702751621120-yoah0tyRyhLrpJq9x9z03Og1GX7Azeg"
-access_token_secret = "4Sz31tseXPZdOXNtyEOo59fkISktwaRhYu8m6QKLOsB4P"
+# consumer_key = "1YlQR4s1xhodnQevmEyiADn85"
+# consumer_secret = "0YOyhqdGedRCsGSyu1FqrROPjbbbLqb2ramTgkXH68uhrc8n8f"
+#
+# access_token = "954776702751621120-yoah0tyRyhLrpJq9x9z03Og1GX7Azeg"
+# access_token_secret = "4Sz31tseXPZdOXNtyEOo59fkISktwaRhYu8m6QKLOsB4P"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
